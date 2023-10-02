@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Raleway:wght@600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+#hero {
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+   background-color:#a79f94 ;
+   background-image: url('banner.jpg');    
+}
+/* .container{
+   background-color: #a79f94;
+} */
+
+.section-1 {
+   background-image: url('banner.jpg'); 
+   min-height: 700px;
+   display: flex;
+   align-items: end;
+   background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+   
+}
+.container-fluid {
+   margin: 0 0 0 80px;
+}
+.card-title{
+   font-size: 50px;
+   font-weight: 700;
+   color: #a79f94;
+}
+.card-subtitle{
+   font-weight: 100;
+   font-size: 20px;
+   font-family: 'Raleway', sans-serif;
+}
+.card-text{
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600; 
+}
+.head{
+   background-color: #a79f94;
+   font-family: 'Raleway', sans-serif;
+   height: 100vh;
+   width: 100%;
+   color: #fff;
+   text-align: center;
+   font-size: 40px;
+   padding-top: 30rem;
+}
+.card {
+   border-radius: 20px;
+}
+.container{
+   margin: 0 auto;
+   max-width: 1100px;
+   width: 100%;
+ 
+}
+.maintradition{
+   background-color: #a79f94;
+}
+.maintraditionsheading{
+   text-align: center;
+   font-size: 3rem;
+   color: #fff;
+   font-weight: 700;
+   padding-top: 10rem;
+}
+.maintraditionspara {
+   margin: 0 auto;
+   max-width: 924px;
+   width: 100%;
+   color: #fff;
+   display: flex;
+   text-align: center;
+   padding-top: 5rem;
+}
+.two-coloum{
+   margin-left: 50px;
+}
+.para-heading hr{
+padding-top: 50px;
+}
+.para-heading p{
+   padding: 20px 0 20px 0;
+   font-size: 1.125rem;
+   font-style: italic;
+}
+.button1  button {
+   border-radius: 10px;
+   border: 2px solid #fff;
+   height: 65px;
+   width: 13rem;
+   background-color: #a79f94;
+   color: #fff;
+   font-weight: 600;
+   letter-spacing: 1px;
+}
+.button1{
+   text-align: center;
+   padding-bottom: 5rem;
+}
+.button1  button:hover{
+   background-color: #fff;
+   color: #a79f94;
+}
+/*---skill-section-start----*/
+.skill-section-heading {
+   text-align: center;
+   font-size: 2.7rem;
+   font-weight: 900;
+   font-family: 'Raleway', sans-serif;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.skill-section-row1{
+   margin: 0 auto;
+   max-width: 1100px;
+   width: 100%;
+   display: flex;
+}
+.skill-section-row2{
+   margin: 0 auto;
+   max-width: 1100px;
+   width: 100%;
+   display: flex;
+  
+}
+.skill-section-img img{
+   height: 15rem;
+   width: 13.5rem;
+   border-radius: 20px;
+   object-fit: cover; 
+}
+.skill-section-box{
+   margin: 30px;
+}
+.skill-section-box-heading {
+   text-align: center;
+   padding-top: 20px;
+   
+}
+.skill-section-box-heading h4{
+   font-weight: 700;
+}
+.skill-section-box-para{
+   text-align: center;
+   padding-top: 10px;
+
+}
+.skill-section-box-para p{
+   font-weight: 400;
+   font-size: 18px;
+}
+.skill-section-icon{
+   text-align: center;
+   color: #a79f94;
+}
+.skill-section-icon a  {
+   margin: 5px;
+}
